@@ -1,3 +1,7 @@
+.slide {
+  background-image: linear-gradient(#E6F4FD, #9AD4F6);
+}
+
 .lasers {
   &:before {
     background-image: url(lasercat.jpg);
@@ -6,3 +10,4 @@
     content: 'http://www.flickr.com/photos/taxifisch/13251951364/in';
   }
 }
+
