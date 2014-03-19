@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif; }
+  body:after {
+    display: block; }
 
 h1,
 h2,
@@ -22,10 +24,18 @@ h3 {
 h4 {
   font-size: 1.1rem; }
 
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: underline; }
+
 .slide .slide-content {
   padding: 1rem; }
 .slide.dark {
-  color: #fff; }
+  color: #fff;
+  text-shadow: #000 2px 2px; }
+.slide.light {
+  text-shadow: #fff 1px 1px; }
 
 .imagebg:before {
   background-size: cover;
@@ -36,7 +46,6 @@ h4 {
   height: 100%;
   z-index: -1; }
 .imagebg:after {
-  color: #fff;
   font-size: 0.7rem;
   position: absolute;
   bottom: 0;
@@ -44,3 +53,6 @@ h4 {
 
 ul {
   padding-left: 2rem; }
+
+.footnotes {
+  font-size: 50%; }
