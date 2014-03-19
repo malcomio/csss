@@ -1,4 +1,12 @@
+.slide {
+  background-image: linear-gradient(#e6f4fd, #9ad4f6); }
+
 .lasers:before {
   background-image: url(lasercat.jpg); }
 .lasers:after {
   content: 'http://www.flickr.com/photos/taxifisch/13251951364/in'; }
+
+.stagecat:before {
+  background-image: url(smashing_cat.jpg); }
+.stagecat:after {
+  content: 'http://www.flickr.com/photos/marcthiele/13264903873/in'; }

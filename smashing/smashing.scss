@@ -11,3 +11,11 @@
   }
 }
 
+.stagecat {
+  &:before {
+    background-image: url(smashing_cat.jpg);
+  }
+  &:after {
+    content: 'http://www.flickr.com/photos/marcthiele/13264903873/in';
+  }
+}
