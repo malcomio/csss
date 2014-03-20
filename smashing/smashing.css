@@ -11,6 +11,9 @@
     height: 100%;
     z-index: -1; }
 
+.imagebg:after {
+  background: none; }
+
 .lasers:before {
   background-image: url(lasercat.jpg); }
 .lasers:after {

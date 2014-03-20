@@ -14,6 +14,12 @@
   }
 }
 
+.imagebg {
+  &:after {
+    background: none;
+  }
+}
+
 .lasers {
   &:before {
     background-image: url(lasercat.jpg);
