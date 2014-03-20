@@ -39,6 +39,11 @@ a {
   &:focus {
     text-decoration: underline;
   }
+
+  i {
+    font-size: 50%;
+    margin-left: 5px;
+  }
 }
 
 .slide {
@@ -82,7 +87,6 @@ ul {
 .footnotes {
   font-size: 50%;
 }
-
 
 .colophon {
   border-top: 1px solid;
