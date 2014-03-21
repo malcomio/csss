@@ -61,6 +61,14 @@ a {
   }
 }
 
+.inset {
+  position: absolute;
+  font-size: 30%;
+  right: 20px;
+  bottom: 50px;
+  max-width: 500px;
+}
+
 .imagebg {
   &:before {
     background-size: cover;

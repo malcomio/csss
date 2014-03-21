@@ -40,6 +40,13 @@ a {
 .slide.light {
   text-shadow: #fff 1px 1px; }
 
+.inset {
+  position: absolute;
+  font-size: 30%;
+  right: 20px;
+  bottom: 50px;
+  max-width: 500px; }
+
 .imagebg:before {
   background-size: cover;
   content: ' ';
